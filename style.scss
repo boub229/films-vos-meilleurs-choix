@@ -1,1 +1,8 @@
 @use 'partials/top-picks';
+@use 'partials/variables';
+@use 'partials/card-style';
+@use "sass:color";
+$color: variables.$primary;
+body{
+    background-color: variables.$primary;
+}
